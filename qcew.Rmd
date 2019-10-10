@@ -14,16 +14,12 @@ library(readr)
 
 Import the data:
 ```{r}
-https://drive.google.com/file/d/1OJf7NlWG5YPkho2xxHYINWRKOQIDcMNw/view?usp=sharing
+# Google file url = https://drive.google.com/file/d/1OJf7NlWG5YPkho2xxHYINWRKOQIDcMNw/view?usp=sharing
+# Google download direct url = "https://doc.google.com/uc?export=download&id=1OJf7NlWG5YPkho2xxHYINWRKOQIDcMNw"
+
+fileurl <- "https://systemsresearch.linkpc.net/downloads/qcew_combined.csv"
+qcew <- read_csv(fileurl)
 
 
-qcew <- read_csv("https://drive.google.com/uc?export=download&id=1OJf7NlWG5YPkho2xxHYINWRKOQIDcMNw")
-
-file <- ("https://drive.google.com/uc?export=download&id=1OJf7NlWG5YPkho2xxHYINWRKOQIDcMNw")
-
-qcew <- read_csv(file)
-
-
-https://drive.google.com/uc?export=download&id=0B4fk8L6brI_eX1U5Ui1Lb1FpVG8
 ```
 
