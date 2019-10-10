@@ -1,0 +1,29 @@
+---
+title: "qcew"
+author: "bus 355"
+date: "10/10/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(readr)
+```
+
+Import the data:
+```{r}
+https://drive.google.com/file/d/1OJf7NlWG5YPkho2xxHYINWRKOQIDcMNw/view?usp=sharing
+
+
+qcew <- read_csv("https://drive.google.com/uc?export=download&id=1OJf7NlWG5YPkho2xxHYINWRKOQIDcMNw")
+
+file <- ("https://drive.google.com/uc?export=download&id=1OJf7NlWG5YPkho2xxHYINWRKOQIDcMNw")
+
+qcew <- read_csv(file)
+
+
+https://drive.google.com/uc?export=download&id=0B4fk8L6brI_eX1U5Ui1Lb1FpVG8
+```
+
